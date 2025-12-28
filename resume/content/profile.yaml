@@ -4,10 +4,9 @@ birthday: "1994年12月1日"
 age: "満31歳"
 nearest_station: "非公開"
 skills: |
-  言語、フレームワーク: Python, Go
-  インフラ・ハード: Google Cloud, AWS, Kubernetes
-  ネットワーク・監視: Cloud Monitoring, New Relic, CloudWatch
-  その他ツール: Git, GitHub Actions, Terraform
+  プログラミング言語: Go, Rust
+  クラウド技術: Google Cloud, Kubernetes
+  データベース: Bigtable, Spanner, Valkey
 hobbies: |
   分散データベース、並行プログラミングの学習
   ウェイトトレーニング
