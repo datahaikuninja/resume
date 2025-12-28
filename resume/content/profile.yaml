@@ -1,32 +1,29 @@
-name: "猫 太郎"
-kana: "ねこ たろう"
-birthday: "1995年10月10日"
-age: "満30歳"
-nearest_station: "池袋駅"
+name: "髙品純大"
+kana: "たかしな じゅんだい"
+birthday: "1994年12月1日"
+age: "満31歳"
+nearest_station: "非公開"
 skills: |
-  言語、フレームワーク: JavaScript, TypeScript, PHP, HTML, CSS, SQL
-  インフラ・ハード: Docker, AWS (EC2, S3, Lambda, etc), Linux
-  ネットワーク・監視: Datadog
+  言語、フレームワーク: Python, Go
+  インフラ・ハード: Google Cloud, AWS, Kubernetes
+  ネットワーク・監視: Cloud Monitoring, New Relic, CloudWatch
   その他ツール: Git, GitHub Actions, Terraform
 hobbies: |
-  料理
-  ゲーム（対戦）
+  分散データベース、並行プログラミングの学習
+  ウェイトトレーニング
 experience:
   environments: |
-    Linux(Ubuntu, NixOS)
     MacOS
     Docker
+    Neovim
   languages: |
-    JavaScript, TypeScript
-    PHP, Ruby
-    HTML5, CSS3
+    Python, Go
   frameworks: |
-    Laravel
-    React, Next.js
-    Vue.js, Nuxt.js
+    net/http
   infrastructure: |
-    AWS (EC2, RDS, Lambda)
-    Docker
+    Google Cloud(GKE, Cloud Run, Bigtable, Memorystore, BigQuery, Pub/Sub)
+    AWS (EC2, ECS, Lambda, Aurora, CloudFront)
+    Kubernetes
   tools: |
     Git(GitHub)
-    Slack, Discord
+    Slack

@@ -1,41 +1,68 @@
-- title: "株式会社キャット Web開発"
+- title: "株式会社TVer 広告配信システムの開発と運用"
   period:
-    from: "23/10"
-    to: "25/7"
-    span: "1年10ヶ月"
+    from: "23/11"
+    to: "現在"
+    span: "2年2ヶ月"
   workdetail:
-    kind: "生物"
-    type: "動物園"
-    size: "6名"
+    kind: "メディア, 配信"
+    type: "SRE, バックエンドエンジニア"
+    size: "20名"
   content: |
-    株式会社キャットでWeb開発を行った
+    2023年11月に TVer に入社後、TVer のインストリーム動画広告配信システムの開発と運用をしています。入社とほぼ同時に広告配信基盤をフルスクラッチ開発するプロジェクトが始まり、私はシステム全体のアーキテクチャ設計と構築、広告視聴計測 API, ETL の開発を担当しました。
+    広告配信システムのインフラには Google Cloud、アプリケーションの開発言語には Go を採用しています。現在は運用フェーズで1日億単位の広告リクエストを捌きながら、信頼性を損なわずに追加機能の開発とリリースを行っています。本プロジェクトで得られた Google Cloud のNoSQL データベースに関する知見を Google Cloud Next Tokyo '25 にて発表しました。
+    
+    「月間動画再生数約 5 億回を誇る TVer の、広告配信基盤における Memorystore & Bigtable 併用戦略と実践的チューニング」
+    https://youtu.be/0g3N_hxSGPs?si=Bk8LaV9UeceFzbpe
   use-soft: |
-    Git
-    AWS
+    Google Cloud
+    Kubernetes(GKE)
     Docker
-    Slack
+    Redis
+    Istio
+    Argo CD
+    New Relic
+    GitHub
   lang-othor: |
-    PHP
-    Laravel
-    AWS
+    Go
+    Terraform
 
-- title: "株式会社ドッグ Web開発"
+- title: "株式会社ベガコーポレーション 家具ブランド LOWYA ECサイトの信頼性向上"
   period:
-    from: "22/10"
-    to: "23/10"
+    from: "21/01"
+    to: "22/10"
     span: "1年10ヶ月"
   workdetail:
-    kind: "生物"
-    type: "動物園"
-    size: "6名"
+    kind: "小売, 流通"
+    type: "SRE"
+    size: "4名"
   content: |
-    株式会社ドッグでWeb開発を行った
+    2022年1月にベガコーポレーションに入社し、家具ブランド LOWYA EC サイトの信頼性を向上させる様々な業務を行いました。当時のベガコーポレーションの SRE は開発組織を横断する Enabling SRE チームでした。私は LOWYA EC サイトの負荷対策を主に担当し、モノリシックな API のレスポンスを CloudFront にキャッシュするプロジェクトをリードしました。LOWYA のバックエンドは GraphQL を採用しており商品検索、商品詳細などの参照系 API も POST リクエストで送信されるため CDN でキャッシュすることが難しい課題がありました。私は AWS のPrototyping Program を活用し、AWS と共同で POST レスポンスを CloudFront にキャッシュするための Lambda@Edge を開発し、プロダクション環境に導入することで課題を解決しました。ちなみに、このソリューションは OSS として公開されているのですが、運用中に不具合を発見したので Pull Request を提出し、OSSにコントリビュートしました。このプロジェクトについては、AWS のコミュニティに発表しています。
+
+    「JAWS-UG SRE支部#4 LOWYAにおける負荷対策と高速化 ~GraphQL Caching on Amazon CloudFront with AWS Prototyping Program」
+    https://speakerdeck.com/datahaikuninja/lowyaniokerufu-he-dui-ce-togao-su-hua-graphql-caching-on-amazon-cloudfront-with-aws-prototyping-program
+
+    OSS(aws-samples)へのコミット
+    https://github.com/aws-samples/amazon-cloudfront-cache-graphql/pull/8
   use-soft: |
-    Git
     AWS
-    Docker
-    Slack
   lang-othor: |
-    PHP
-    Laravel
+    Python
+    Terraform
+
+
+- title: "アイレット株式会社 インフラ監視, 構築, 運用"
+  period:
+    from: "19/04"
+    to: "21/12"
+    span: "2年9ヶ月"
+  workdetail:
+    kind: "システムインテグレーション"
+    type: "インフラエンジニア"
+    size: ""
+  content: |
+    2019年4月にアイレット株式会社に新卒で入社し、MSPのオペレーターとして 24/365 の監視業務に従事した後、インフラエンジニアとして AWS を活用したシステム開発案件でインフラの構築・運用業務を行いました。主にJリーグ、プロ野球、甲子園など、ファンの多いスポーツメディアを運営するお客様のインフラを担当し、試合と連動してアクセスが集中する特性がある複数のシステムを運用していました。
+  use-soft: |
     AWS
+  lang-othor: |
+    Terraform
+    Ansible

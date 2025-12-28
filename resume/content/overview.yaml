@@ -1,27 +1,36 @@
-- title: "株式会社キャット"
-  period: "2023年10月 ～ 2025年7月"
+- title: "株式会社TVer"
+  period: "2023年11月 ～ 現在"
   content: |
-    ネコ向けサービスを展開している会社。
+    民放公式テレビ配信サービス
 
     [業務内容]
 
-    - Laravelを用いた機能開発
+    - 広告配信システムの開発、運用
   tech_stack: |
-    フロントエンド: React, TypeScript
-    バックエンド: Laravel
-    インフラ: AWS, Docker
-    ツール: GitHub, Slack
+    フロントエンド: Vue.js, TypeScript
+    バックエンド: Go, Java
+    インフラ: Google Cloud, AWS
+    ツール: GitHub, Slack, New Relic
 
-- title: "株式会社ドッグ"
-  period: "2022年10月 ～ 2023年10月"
+- title: "株式会社ベガコーポレーション"
+  period: "2022年1月 ～ 2023年10月"
   content: |
-    ドッグ向けサービスを展開している会社。
+    家具ブランド LOWYA の運営
 
     [業務内容]
 
-    - Laravelを用いた機能開発
+    - EC サイトの信頼性向上
   tech_stack: |
-    フロントエンド: React, TypeScript
-    バックエンド: Laravel
-    インフラ: AWS, Docker
+    バックエンド: Ruby on Rails
+    インフラ: AWS
     ツール: GitHub, Slack
+
+- title: "アイレット株式会社"
+  period: "2019年4月 ～ 2021年12月"
+  content: |
+    AWS, Google Cloud を活用したシステム開発、インテグレーション
+
+    [業務内容]
+    - システム監視、インフラ構築・運用
+  tech_stack: |
+    インフラ: AWS
