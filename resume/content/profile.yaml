@@ -8,7 +8,7 @@ skills: |
   クラウド技術: Google Cloud, Kubernetes
   データベース: Bigtable, Spanner, Valkey
 hobbies: |
-  分散データベース、並行プログラミングの学習
+  分散システム、ストレージエンジン、並行プログラミングの学習
   ウェイトトレーニング
 experience:
   environments: |
@@ -20,8 +20,8 @@ experience:
   frameworks: |
     net/http
   infrastructure: |
-    Google Cloud(GKE, Cloud Run, Bigtable, Memorystore, BigQuery, Pub/Sub)
-    AWS (EC2, ECS, Lambda, Aurora, CloudFront)
+    Google Cloud(GKE, Cloud Run, Bigtable, Memorystore, BigQuery, Pub/Sub...)
+    AWS (EC2, ECS, Lambda, Aurora, CloudFront...)
     Kubernetes
   tools: |
     Git(GitHub)
